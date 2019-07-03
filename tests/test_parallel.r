@@ -1,8 +1,9 @@
 library(parallel)
 library(testthat)
 
+print(parallel::detectCores())
+
 for (i in 1:10) {
-    print(parallel::detectCores())
     test_that(
         "Test making cluster.", {
             cat(sprintf("Using %s cores.\n", i))
