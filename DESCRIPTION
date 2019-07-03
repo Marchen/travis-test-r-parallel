@@ -2,7 +2,7 @@ Package: travis.parallel.test
 Version: 0.0.1
 Date: 2019-07-03
 Title: Test parallel
-Lisence: GPL
+License: GPL
 Author: Michio Oguro <mog@ffpri.affrc.go.jp>
 Maintainer: Michio Oguro <mog@ffpri.affrc.go.jp>
 Description:
